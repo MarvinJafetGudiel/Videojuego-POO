@@ -1,0 +1,7 @@
+C:\Users\HP\Documents\Tareas Progra lll\Tarea POO\Videojuego\Videojuego\bin\Debug\Videojuego.exe.config
+C:\Users\HP\Documents\Tareas Progra lll\Tarea POO\Videojuego\Videojuego\bin\Debug\Videojuego.exe
+C:\Users\HP\Documents\Tareas Progra lll\Tarea POO\Videojuego\Videojuego\bin\Debug\Videojuego.pdb
+C:\Users\HP\Documents\Tareas Progra lll\Tarea POO\Videojuego\Videojuego\obj\Debug\Videojuego.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\Tareas Progra lll\Tarea POO\Videojuego\Videojuego\obj\Debug\Videojuego.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Tareas Progra lll\Tarea POO\Videojuego\Videojuego\obj\Debug\Videojuego.exe
+C:\Users\HP\Documents\Tareas Progra lll\Tarea POO\Videojuego\Videojuego\obj\Debug\Videojuego.pdb
