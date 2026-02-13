@@ -44,7 +44,7 @@ namespace Videojuego
 
         public virtual void MostrarDatos()
         {
-            Console.WriteLine("ID: {0}", this.ID);
+            Console.WriteLine("Personaje NO: {0}", this.ID);
 
             Console.WriteLine("Nombre: {0}", this.Nombre);
 
