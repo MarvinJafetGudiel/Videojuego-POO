@@ -10,12 +10,13 @@ namespace Videojuego
     {
         static void Main(string[] args)
         {
+            Arquero arquero1 = new Arquero("Elias", "Aliado", 200, "Lanzar flechas de fuego", 80);
 
-            Personaje personaje1 = new Personaje("Daniel", 88, 300, "Villano", "Lanzar cuchillas");
 
-            personaje1.MostrarDatos();
-            personaje1.Atacar();
+            arquero1.MostrarDatos();
+            arquero1.Atacar();
 
+            Console.ReadKey();
             
         }
     }

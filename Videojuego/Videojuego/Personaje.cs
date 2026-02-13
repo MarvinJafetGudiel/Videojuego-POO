@@ -8,7 +8,7 @@ namespace Videojuego
 {
     internal class Personaje
     {
-        protected int idPersonaje = 0;
+        protected static int idPersonaje = 0;
 
         protected int ID {  get; set; }
 
@@ -16,20 +16,17 @@ namespace Videojuego
 
         protected int Vida {  get; set; }
 
-        protected int PoderAtaque { get; set; }
-
         protected string Tipo {  get; set; }
 
         protected string SuperPoder {  get; set; }
 
         public Personaje() { }
 
-        public Personaje(string nombre, int vida, int poderAtaque, string tipo, string superPoder)
+        public Personaje(string nombre, int vida, string tipo, string superPoder)
         {
             this.ID = CrearID();
             this.Nombre = nombre;
             this.Vida = vida;
-            this.PoderAtaque = poderAtaque;
             this.Tipo = tipo;
             this.SuperPoder = superPoder;
         }
@@ -41,11 +38,11 @@ namespace Videojuego
 
         public virtual void Atacar()
         {
-            Console.WriteLine("el personaje {0} Comienza a atacar con su super poder: {1} causando {2} de daño", this.Nombre,this.SuperPoder, this.PoderAtaque);
+            Console.WriteLine("el personaje {0} Comienza a atacar con su super poder: {1}", this.Nombre,this.SuperPoder);
             Console.WriteLine("-----------------------------------------------------------------------------------");
         }
 
-        public void MostrarDatos()
+        public virtual void MostrarDatos()
         {
             Console.WriteLine("ID: {0}", this.ID);
 
@@ -53,13 +50,10 @@ namespace Videojuego
 
             Console.WriteLine("Vida: {0}", this.Vida);
 
-            Console.WriteLine("Poder de ataque: {0}", this.PoderAtaque);
-
             Console.WriteLine("Tipo: {0}", this.Tipo);
 
             Console.WriteLine("Super poder: {0}", this.SuperPoder);
 
-            Console.WriteLine("---------------------------------------------------------------------------------");
         }
 
 

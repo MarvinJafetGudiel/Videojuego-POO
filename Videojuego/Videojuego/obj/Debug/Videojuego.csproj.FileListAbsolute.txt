@@ -5,3 +5,4 @@ C:\Users\HP\Documents\Tareas Progra lll\Tarea POO\Videojuego\Videojuego\obj\Debu
 C:\Users\HP\Documents\Tareas Progra lll\Tarea POO\Videojuego\Videojuego\obj\Debug\Videojuego.csproj.CoreCompileInputs.cache
 C:\Users\HP\Documents\Tareas Progra lll\Tarea POO\Videojuego\Videojuego\obj\Debug\Videojuego.exe
 C:\Users\HP\Documents\Tareas Progra lll\Tarea POO\Videojuego\Videojuego\obj\Debug\Videojuego.pdb
+C:\Users\HP\Documents\Tareas Progra lll\Tarea POO\Videojuego\Videojuego\obj\Debug\Videojuego.exe.config
